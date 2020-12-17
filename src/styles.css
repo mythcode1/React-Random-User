@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.searchBar {
+  margin: 20px;
+  height: auto;
+}
+
+.addUserButton {
+  margin: 20px;
+}
+
+.usercard {
+  box-shadow: 5px 5px 5px gray;
+  margin: 5px;
+}
+
+.greetings {
+  color: red;
+}
+
+.username {
+  color: gray;
+}
+
+.thumbnail {
+  border-radius: 50%;
+  border: 5px green solid;
+}
