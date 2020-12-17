@@ -86,6 +86,11 @@ export default function App() {
         </button>
       </div>
       <div className="row">
+        <div className="col-auto">
+          <p>Displaying {userObjects.length} results.</p>
+        </div>
+      </div>
+      <div className="row">
         {isLoading
           ? "Loading"
           : userObjects.map((user, idx) => (
